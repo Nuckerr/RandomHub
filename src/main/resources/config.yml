@@ -1,0 +1,8 @@
+hubs:
+  - Hub-01
+  - Hub-02
+messages:
+  hub-sent: "&aYou have been sent to %server_name%"
+  unable-to-send: "&cUnable to send you to hub"
+  permission-message: "&cYou dont have permission to do this"
+  alo-updated: "&aAlways-lobby-one has been set to %status%"

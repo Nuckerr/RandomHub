@@ -1,0 +1,5 @@
+name: RandomHub
+version: ${project.version}
+main: wtf.nucker.randomhub.RandomHub
+description: Changes hub to be random
+author: Nucker
