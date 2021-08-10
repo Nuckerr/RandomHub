@@ -1,10 +1,10 @@
-package wtf.nucker.randomhub.utils;
+package wtf.nucker.randomhub.bungee.utils;
 
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
-import wtf.nucker.randomhub.RandomHub;
+import wtf.nucker.randomhub.bungee.RandomHub;
 
 /**
  * @author Nucker

@@ -1,7 +1,7 @@
-package wtf.nucker.randomhub.utils;
+package wtf.nucker.randomhub.bungee.utils;
 
 import net.md_5.bungee.api.connection.ProxiedPlayer;
-import wtf.nucker.randomhub.RandomHub;
+import wtf.nucker.randomhub.bungee.RandomHub;
 
 /**
  * @author Nucker

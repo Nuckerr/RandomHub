@@ -1,9 +1,9 @@
-package wtf.nucker.randomhub.utils;
+package wtf.nucker.randomhub.bungee.utils;
 
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
-import wtf.nucker.randomhub.RandomHub;
+import wtf.nucker.randomhub.bungee.RandomHub;
 
 import java.io.File;
 import java.io.IOException;

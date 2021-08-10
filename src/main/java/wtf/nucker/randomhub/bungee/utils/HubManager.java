@@ -1,10 +1,10 @@
-package wtf.nucker.randomhub.utils;
+package wtf.nucker.randomhub.bungee.utils;
 
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import net.md_5.bungee.api.config.ServerInfo;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
-import wtf.nucker.randomhub.RandomHub;
+import wtf.nucker.randomhub.bungee.RandomHub;
 
 import java.util.List;
 import java.util.Random;

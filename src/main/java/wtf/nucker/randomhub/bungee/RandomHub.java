@@ -1,13 +1,13 @@
-package wtf.nucker.randomhub;
+package wtf.nucker.randomhub.bungee;
 
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
-import wtf.nucker.randomhub.commands.HubCommand;
-import wtf.nucker.randomhub.commands.SettingsCommand;
-import wtf.nucker.randomhub.listeners.JoinListener;
-import wtf.nucker.randomhub.listeners.KickListener;
-import wtf.nucker.randomhub.utils.Config;
+import wtf.nucker.randomhub.bungee.commands.HubCommand;
+import wtf.nucker.randomhub.bungee.commands.SettingsCommand;
+import wtf.nucker.randomhub.bungee.listeners.JoinListener;
+import wtf.nucker.randomhub.bungee.listeners.KickListener;
+import wtf.nucker.randomhub.bungee.utils.Config;
 
 import java.io.IOException;
 

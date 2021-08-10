@@ -1,0 +1,18 @@
+name: RandomHub
+main: wtf.nucker.randomhub.bukkit.RandomHub
+version: ${project.version}
+description: Send players to different hubs every time they join
+author: Nucker
+website: nucker.me
+commands:
+  hub:
+    description: Sends you to the hub
+    aliases:
+      - lobby
+      - l
+  alwayshubone:
+    description: Toggle the always-hub-one setting
+    aliases:
+      - aho
+      - alwayslobbyone
+      - alo

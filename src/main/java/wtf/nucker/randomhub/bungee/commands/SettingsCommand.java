@@ -1,12 +1,12 @@
-package wtf.nucker.randomhub.commands;
+package wtf.nucker.randomhub.bungee.commands;
 
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.chat.ComponentBuilder;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Command;
-import wtf.nucker.randomhub.utils.Language;
-import wtf.nucker.randomhub.utils.SettingsUtils;
+import wtf.nucker.randomhub.bungee.utils.Language;
+import wtf.nucker.randomhub.bungee.utils.SettingsUtils;
 
 /**
  * @author Nucker
