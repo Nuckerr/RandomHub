@@ -1,5 +1,6 @@
 package wtf.nucker.randomhub.bungee.listeners;
 
+import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.event.ServerKickEvent;
 import net.md_5.bungee.api.plugin.Listener;
@@ -18,10 +19,10 @@ public class KickListener implements Listener {
 
     @EventHandler
     public void onServerKickEvent(ServerKickEvent e) {
-        ProxiedPlayer player = e.getPlayer();
         if(e.getKickedFrom() == null) return;
-        if(!e.getKickReason().equalsIgnoreCase("Server Closed")) return;
+        if(!RandomHub.getInstance().getConfig().getStringList("kick-messages").contains(ChatColor.stripColor(e.getKickReason()))) return;
 
+        e.setCancelled(true);
         HubManager.connect(e.getPlayer());
     }
 }

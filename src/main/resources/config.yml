@@ -6,3 +6,7 @@ messages:
   unable-to-send: "&cUnable to send you to hub"
   permission-message: "&cYou dont have permission to do this"
   alo-updated: "&aAlways-lobby-one has been set to %status%"
+# Kick messages that get you sent to the lobby
+kick-messages:
+  - "Server closed"
+  - "disconnect.spam"
